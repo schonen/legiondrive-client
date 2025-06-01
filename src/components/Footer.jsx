@@ -1,6 +1,8 @@
 function Footer() {
   return (
-    <footer className="bg-gray-100 text-center p-2 text-sm">&copy; 2025 LegionWeb</footer>
+    <footer>
+      <p>&copy; 2025 LegionDrive. Tous droits réservés.</p>
+    </footer>
   );
 }
 

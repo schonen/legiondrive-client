@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #f0f4f8; /* Couleur de fond douce */
+  font-family: Arial, sans-serif; /* Police de base */
 }
 
 .logo {
@@ -11,9 +13,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -35,8 +39,123 @@
 
 .card {
   padding: 2em;
+  background-color: #FFD700; /* Fond de carte */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
 }
 
 .read-the-docs {
   color: #888;
+}
+
+/* Styles pour Mon Compte */
+.mon-compte {
+  max-width: 500px;
+  margin: 2rem auto; /* Marges centrées */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff; /* Fond blanc */
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem; /* Espacement */
+}
+
+.compte-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 300ms; /* Transition douce */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles pour Partager le Fichier */
+.partager-fichier {
+  max-width: 600px;
+  margin: 2rem auto; /* Marges centrées */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff; /* Fond blanc */
+}
+
+.partager-fichier h1 {
+  color: #333;
+}
+
+.partager-fichier .form-group {
+  margin-bottom: 15px;
+}
+
+.partager-fichier label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.partager-fichier input,
+.partager-fichier select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.partager-fichier input:focus,
+.partager-fichier select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.partager-fichier .submit-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 300ms; /* Transition douce */
+}
+
+.partager-fichier .submit-button:hover {
+  background-color: #0056b3;
 }
